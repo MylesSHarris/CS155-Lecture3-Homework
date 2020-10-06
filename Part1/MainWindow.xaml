@@ -1,0 +1,15 @@
+﻿<Window x:Class="Part1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Part1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="monthlyPaymentText" Text="Monthly Payment" TextWrapping="Wrap" Margin="306,150,340,222"/>
+        <TextBox x:Name="outstandingBalanceText" Text="Outstanding Balance" TextWrapping="Wrap" Margin="306,217,340,163"/>
+        <Button Content="Calculate" Margin="306,289,340,105" Click="Button_Click"/>
+
+    </Grid>
+</Window>
